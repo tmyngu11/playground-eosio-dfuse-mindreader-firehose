@@ -56,7 +56,7 @@ The dfuse Mindreader app at high level is a `nodeos` process manager with the ad
 
 Let's first start dfuse Mindreader to generate dfuse Blocks. Prior running the required commands, ensure you have your Telos snapshot downloaded to your disk, follow the [Snapshots Section](#snapshots) for details. Edit the `mindreader.yaml` config file and find the `mindreader-bootstrap-snapshot-name` line, update it to point to the name of the snapshot file your downloaded.
 
-If you are on Unix (and not OS X), tweak `mindreaer/config.ini` an enable the commented settings for EOS VM, this will speed reprocessing of blocks.
+If you are on Unix (and not OS X), tweak `config/mindreader/config.ini` an enable the commented settings for EOS VM, this will speed reprocessing of blocks.
 
 When you are ready, simply launch the following command:
 
